@@ -9,6 +9,8 @@
 - Redis Version: 4.0.9
 - Database: Mysql
 - Workers: Sidekiq
+### Postman Api Test
+[Link Collection Postman](https://www.getpostman.com/collections/c94d88cfcec6d0568f2c)
 ### How To Run Project
 ```sh
 $ git clone git@github.com:Abd-El-Rahman-HSN/WebOps-Task.git
