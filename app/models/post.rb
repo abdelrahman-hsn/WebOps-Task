@@ -6,5 +6,7 @@ class Post < ApplicationRecord
   belongs_to :author, class_name: 'User', foreign_key: 'author_id'
   has_many :comments, dependent: :destroy
 
+  validates_presence_of :title, :body, :author_id
+
   scope :recent, -> { where('created_at <= :hour24', hour24: Time.now - 24.hours) }
 end
