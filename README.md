@@ -1,24 +1,32 @@
-# README
+# WebOps Task
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Description Task
+> Blog Application
 
-Things you may want to cover:
+##### Things you may want to cover:
+- Ruby version: 2.6.5
+- Rails Versiom: 6.0.2
+- Redis Version: 4.0.9
+- Database: Mysql
+- Workers: Sidekiq
+### How To Run Project
+```sh
+$ git clone git@github.com:Abd-El-Rahman-HSN/WebOps-Task.git
+$ cd WebOps-Task
+$ bundle install
+```
+#### Create Data Base
+```sh
+$ rails db:create
+$ rails db:migrate
+```
+#### Run Project
+```sh
+$ rails s
+$ bundle exec sidekiq
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Run Docker
+```sh
+$ docker-compose up --build 
+```
