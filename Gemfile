@@ -17,7 +17,7 @@ gem 'puma', '~> 4.1'
 gem 'jwt'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
 gem 'acts-as-taggable-on', '~> 6.0'
 
 gem 'redis'
